@@ -77,3 +77,10 @@
 ```$ sudo curl -sS https://getcomposer.org/installer | php
    $ sudo mv composer.phar /usr/local/bin/composer
 ```
+
+## 报错
+```
+编译报错：configure: error: Cannot find libpq-fe.h. Please specify correct PostgreSQL installation path
+
+解决办法：sudo yum -y install postgresql-devel
+```
