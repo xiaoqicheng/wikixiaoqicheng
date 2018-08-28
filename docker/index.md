@@ -1,1 +1,1 @@
-## [安装docker-compose](install.md)
+## [安装](install.md)
