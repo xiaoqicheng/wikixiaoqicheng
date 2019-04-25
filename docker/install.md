@@ -8,7 +8,10 @@
 #: sudo yum makecache fast
 #: sudo yum -y install docker-ce
 #: sudo systemctl start docker
-#: docker version
+#: sudo docker version
+
+普通用户使用docker
+#: usermod -aG docker $user
 ```
 
 # 安装 docker-compose 
